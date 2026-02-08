@@ -107,14 +107,29 @@ ul.task-list li input[type="checkbox"] {
 <strong>Time:</strong> 20:00-late<br>
 <strong>Venue:</strong> OIST Center Building</p>
 </div>
-<p>Come celebrate the achievements of OIST’s newest doctors with us!</p>
-<section id="ticket-sales" class="level2">
+<div class="countdown-container">
+  <div class="countdown-title">Days Until the Ball</div>
+  <div class="countdown-number" id="countdown">—</div>
+</div>
+
+<script>
+  function updateCountdown() {
+    const eventDate = new Date('2026-02-27T00:00:00').getTime();
+    const today = new Date().getTime();
+    const daysRemaining = Math.ceil((eventDate - today) / (1000 * 60 * 60 * 24));
+    
+    document.getElementById('countdown').textContent = Math.max(0, daysRemaining);
+  }
+  
+  updateCountdown();
+</script>
+<section id="ticket-sales" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="ticket-sales">🎫 Ticket Sales</h2>
 <p>Ticket sales will start <strong>Monday, February 9th</strong>.</p>
 <p>You can find us during lunch time <strong>(12:00-13:00)</strong> at <strong>Cafe Tancha</strong> — just follow the posters!</p>
 <p><strong>Ticket Price:</strong> ¥5,000</p>
 </section>
-<section id="whats-included" class="level2">
+<section id="whats-included" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="whats-included">🍾 What’s Included</h2>
 <ul>
 <li>All-you-can-drink alcoholic beverages</li>
@@ -122,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Finger foods</li>
 </ul>
 </section>
-<section id="entertainment" class="level2">
+<section id="entertainment" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="entertainment">🎉 Entertainment</h2>
 <p>We have prepared a special night with:</p>
 <ul>
@@ -131,9 +146,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Karaoke</li>
 <li>And more!</li>
 </ul>
-
-
 </section>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
