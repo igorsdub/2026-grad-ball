@@ -43,3 +43,23 @@
   font-weight: bold;
   line-height: 1;
 }
+
+.section-container {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-left: 5px solid #667eea;
+  color: inherit;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.section-container ul {
+  margin-bottom: 0;
+}

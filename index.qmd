@@ -31,6 +31,8 @@ title: "OIST Graduation Ball 2026"
 
 Come celebrate the achievements of OIST's newest doctors with us!   
 
+::: section-container
+
 ## 🎫 Ticket Sales
 
 Ticket sales will start **Monday, February 9th**.
@@ -39,11 +41,19 @@ You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just 
 
 **Ticket Price:** ¥5,000
 
+:::
+
+::: section-container
+
 ## 🍾 What's Included
 
 -   All-you-can-drink alcoholic beverages
 -   All-you-can-drink soft drinks
 -   Finger foods
+
+:::
+
+::: section-container
 
 ## 🎉 Entertainment
 
@@ -53,3 +63,5 @@ We have prepared a special night with:
 -   DJs
 -   Karaoke
 -   And more!
+
+:::
