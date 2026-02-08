@@ -102,12 +102,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="top-section">
-<div class="event-details">
-<p>🗓️ 2026 Feb 27<sup>th</sup> Fri<br>
-🕗 20:00 - late<br>
-📍 OIST Center Building</p>
-</div>
+<p><big>The biggest event of the year! Join us for the annual celebration of the OIST graduates.</big></p>
 <div class="countdown-container">
   <div class="countdown-title">Days Until the Ball</div>
   <div class="countdown-number" id="countdown">—</div>
@@ -125,31 +120,126 @@ ul.task-list li input[type="checkbox"] {
   updateCountdown();
 </script>
 
-</div>
+<div class="three-column-layout">
 <section id="ticket-sales" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="ticket-sales">🎫 Ticket Sales</h2>
-<p>Ticket sales will start <strong>Monday, February 9th</strong>.</p>
-<p>You can find us during lunch time <strong>(12:00-13:00)</strong> at <strong>Cafe Tancha</strong> — just follow the posters!</p>
+<p>Every weekday during lunch time (12:00-13:00) at Cafe Tancha.</p>
 <p><strong>Ticket Price:</strong> ¥5,000</p>
+<a href="#" class="ticket-button">Reserve Your Ticket</a>
 </section>
-<section id="whats-included" class="level2 section-container">
-<h2 class="anchored" data-anchor-id="whats-included">🍾 What’s Included</h2>
-<ul>
-<li>All-you-can-drink alcoholic beverages</li>
-<li>All-you-can-drink soft drinks</li>
-<li>Finger foods</li>
-</ul>
+<section id="event-details" class="level2 section-container">
+<h2 class="anchored" data-anchor-id="event-details">📋 Event Details</h2>
+<p>🗓️ 2026 Feb 27<sup>th</sup> Fri<br>
+🕗 20:00 - late<br>
+📍 OIST Center Building</p>
+<p>🤵 Smart Casual / Formal</p>
 </section>
-<section id="entertainment" class="level2 section-container">
+<section id="catering" class="level2 section-container">
+<h2 class="anchored" data-anchor-id="catering">🍾 Catering</h2>
+<p>🍹 All-you-can-drink by Lab0<br>
+🍽️ Finger foods by Caesar’s Kitchen</p>
+<p>Detailed menu to be announced soon!</p>
+</section>
+<section id="entertainment" class="level2 section-container-featured">
 <h2 class="anchored" data-anchor-id="entertainment">🎉 Entertainment</h2>
-<ul>
-<li>Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a></li>
-<li>Andrew and Fr.&nbsp;<a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a></li>
-<li>DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a></li>
-<li>Karaoke room</li>
-<li>Photo booth</li>
-<li>And more!</li>
-</ul>
+<p>🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a><br>
+🎸 Andrew and Fr.&nbsp;<a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a><br>
+🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a><br>
+🎤 Karaoke room<br>
+📸 Photo booth</p>
+</section>
+</div>
+<section id="oist-graduation-ball" class="level2 section-container-gallery">
+<h2 class="anchored" data-anchor-id="oist-graduation-ball">2019 OIST Graduation Ball</h2>
+<p>This year will be the first time the Graduation Ball held on campus since 2019. Here are some memories from that event event!</p>
+<div class="gallery-container">
+  <div class="gallery-wrapper">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_01.jpg" alt="2019 Graduation Ball - Photo 1">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_02.jpg" alt="2019 Graduation Ball - Photo 2">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_03.jpg" alt="2019 Graduation Ball - Photo 3">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_04.jpg" alt="2019 Graduation Ball - Photo 4">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_05.jpg" alt="2019 Graduation Ball - Photo 5">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_06.jpg" alt="2019 Graduation Ball - Photo 6">
+</div>
+  <button class="gallery-nav gallery-prev" onclick="changeGalleryImage(-1)">❮</button>
+  <button class="gallery-nav gallery-next" onclick="changeGalleryImage(1)">❯</button>
+  <div class="gallery-dots">
+    <span class="dot active" onclick="currentGalleryImage(0)"></span>
+    <span class="dot" onclick="currentGalleryImage(1)"></span>
+    <span class="dot" onclick="currentGalleryImage(2)"></span>
+    <span class="dot" onclick="currentGalleryImage(3)"></span>    <span class="dot" onclick="currentGalleryImage(4)"></span>    <span class="dot" onclick="currentGalleryImage(5)"></span>  </div>
+</div>
+
+<script>
+let galleryIndex = 0;
+let galleryTimer;
+
+function changeGalleryImage(n) {
+  clearTimeout(galleryTimer);
+  galleryIndex += n;
+  if (galleryIndex >= document.querySelectorAll('.gallery-image').length) {
+    galleryIndex = 0;
+  }
+  if (galleryIndex < 0) {
+    galleryIndex = document.querySelectorAll('.gallery-image').length - 1;
+  }
+  displayGalleryImage();
+  autoGallery();
+}
+
+function currentGalleryImage(n) {
+  clearTimeout(galleryTimer);
+  galleryIndex = n;
+  displayGalleryImage();
+  autoGallery();
+}
+
+function displayGalleryImage() {
+  const images = document.querySelectorAll('.gallery-image');
+  const dots = document.querySelectorAll('.dot');
+  
+  images.forEach(img => img.style.display = 'none');
+  images[galleryIndex].style.display = 'block';
+  
+  dots.forEach(dot => dot.classList.remove('active'));
+  dots[galleryIndex].classList.add('active');
+}
+
+function autoGallery() {
+  galleryTimer = setTimeout(() => {
+    galleryIndex++;
+    if (galleryIndex >= document.querySelectorAll('.gallery-image').length) {
+      galleryIndex = 0;
+    }
+    displayGalleryImage();
+    autoGallery();
+  }, 4000);
+}
+
+// Initialize gallery
+displayGalleryImage();
+autoGallery();
+</script>
+</section>
+<section id="ℹ-faqs" class="level2 section-container">
+<h2 class="anchored" data-anchor-id="ℹ-faqs">ℹ️ FAQs</h2>
+<p><strong>Where exactly is the event?</strong> Different locations within the OIST Center Building. The main event will be held in Caesar’s Kitchen.</p>
+<p><strong>I am graduating. Do I need to get a ticket?</strong> No, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.</p>
+<p><strong>How will you know who paid for a ticket?</strong> We will have a list of ticket holders at the entrance and give you a wristband when you enter.</p>
+<p><strong>Guest parking?</strong> OIST’s main parking building is available for use.</p>
+<p><strong>Can I bring a guest?</strong> Yes, but they will need to purchase a ticket for them.</p>
+</section>
+<section id="sponsors" class="level2 section-container-sponsors">
+<h2 class="anchored" data-anchor-id="sponsors">🙏 Sponsors</h2>
+<p>TBA</p>
+</section>
+<section id="contact-us" class="level2 section-container-contact">
+<h2 class="anchored" data-anchor-id="contact-us">📬 Contact Us</h2>
+<p>Find us at Cafe Tancha during ticket sales or email us at <a href="mailto:graduationball@oist.jp">graduationball@oist.jp</a>.</p>
+</section>
+<section id="organizers" class="level2 section-container-organizers">
+<h2 class="anchored" data-anchor-id="organizers">👩‍💼 Organizers</h2>
+<p>TBD</p>
 </section>
 
 
@@ -556,6 +646,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>by Igors Dubanevics | 2026</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
