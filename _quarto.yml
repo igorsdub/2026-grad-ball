@@ -2,20 +2,15 @@ project:
   type: website
 
 website:
-  title: "2026-grad-ball"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "OIST Graduation Ball 2026"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      # - cosmo
+      - quartz
     css: styles.css
-    toc: true
+    toc: false
 
 
 
