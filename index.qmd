@@ -10,6 +10,25 @@ title: "OIST Graduation Ball 2026"
 
 :::
 
+```{=html}
+<div class="countdown-container">
+  <div class="countdown-title">Days Until the Ball</div>
+  <div class="countdown-number" id="countdown">—</div>
+</div>
+
+<script>
+  function updateCountdown() {
+    const eventDate = new Date('2026-02-27T00:00:00').getTime();
+    const today = new Date().getTime();
+    const daysRemaining = Math.ceil((eventDate - today) / (1000 * 60 * 60 * 24));
+    
+    document.getElementById('countdown').textContent = Math.max(0, daysRemaining);
+  }
+  
+  updateCountdown();
+</script>
+```
+
 Come celebrate the achievements of OIST's newest doctors with us!   
 
 ## 🎫 Ticket Sales
