@@ -81,7 +81,85 @@ Detailed menu to be announced soon!
 </div>
 ```
 
-::: section-container-details
+::: section-container-gallery
+
+## 2019 OIST Graduation Ball
+This year will be the first time the Graduation Ball held on campus since 2019. Here are some memories from that event event!
+
+```{=html}
+<div class="gallery-container">
+  <div class="gallery-wrapper">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_01.jpg" alt="2019 Graduation Ball - Photo 1">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_02.jpg" alt="2019 Graduation Ball - Photo 2">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_03.jpg" alt="2019 Graduation Ball - Photo 3">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_04.jpg" alt="2019 Graduation Ball - Photo 4">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_05.jpg" alt="2019 Graduation Ball - Photo 5">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_06.jpg" alt="2019 Graduation Ball - Photo 6">
+</div>
+  <button class="gallery-nav gallery-prev" onclick="changeGalleryImage(-1)">❮</button>
+  <button class="gallery-nav gallery-next" onclick="changeGalleryImage(1)">❯</button>
+  <div class="gallery-dots">
+    <span class="dot active" onclick="currentGalleryImage(0)"></span>
+    <span class="dot" onclick="currentGalleryImage(1)"></span>
+    <span class="dot" onclick="currentGalleryImage(2)"></span>
+    <span class="dot" onclick="currentGalleryImage(3)"></span>    <span class="dot" onclick="currentGalleryImage(4)"></span>    <span class="dot" onclick="currentGalleryImage(5)"></span>  </div>
+</div>
+
+<script>
+let galleryIndex = 0;
+let galleryTimer;
+
+function changeGalleryImage(n) {
+  clearTimeout(galleryTimer);
+  galleryIndex += n;
+  if (galleryIndex >= document.querySelectorAll('.gallery-image').length) {
+    galleryIndex = 0;
+  }
+  if (galleryIndex < 0) {
+    galleryIndex = document.querySelectorAll('.gallery-image').length - 1;
+  }
+  displayGalleryImage();
+  autoGallery();
+}
+
+function currentGalleryImage(n) {
+  clearTimeout(galleryTimer);
+  galleryIndex = n;
+  displayGalleryImage();
+  autoGallery();
+}
+
+function displayGalleryImage() {
+  const images = document.querySelectorAll('.gallery-image');
+  const dots = document.querySelectorAll('.dot');
+  
+  images.forEach(img => img.style.display = 'none');
+  images[galleryIndex].style.display = 'block';
+  
+  dots.forEach(dot => dot.classList.remove('active'));
+  dots[galleryIndex].classList.add('active');
+}
+
+function autoGallery() {
+  galleryTimer = setTimeout(() => {
+    galleryIndex++;
+    if (galleryIndex >= document.querySelectorAll('.gallery-image').length) {
+      galleryIndex = 0;
+    }
+    displayGalleryImage();
+    autoGallery();
+  }, 4000);
+}
+
+// Initialize gallery
+displayGalleryImage();
+autoGallery();
+</script>
+```
+:::
+
+
+::: section-container
 
 ## ℹ️ FAQs
 
