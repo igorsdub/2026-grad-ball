@@ -1,22 +1,5 @@
 /* css styles */
 
-.top-section {
-  display: flex;
-  gap: 2rem;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-.top-section > .event-details {
-  flex: 1;
-  min-width: 300px;
-}
-
-.top-section > .countdown-container {
-  flex: 1;
-  min-width: 300px;
-}
-
 .event-details {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -60,14 +43,22 @@
   line-height: 1;
 }
 
+.three-column-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
 .section-container {
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
   border-left: 5px solid #667eea;
   color: inherit;
   padding: 2rem;
   border-radius: 8px;
-  margin: 2rem 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .section-container h2 {
@@ -78,4 +69,75 @@
 
 .section-container ul {
   margin-bottom: 0;
+  flex-grow: 1;
+}
+
+.section-container-featured {
+  background: linear-gradient(135deg, rgba(240, 147, 251, 0.2) 0%, rgba(245, 87, 108, 0.2) 100%);
+  border-left: 5px solid #f5576c;
+  color: inherit;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(245, 87, 108, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container-featured h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section-container-featured ul {
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+
+.section-container-featured li {
+  font-size: 1.05rem;
+  margin-bottom: 0.8rem;
+}
+
+.ticket-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.ticket-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+  color: white;
+}
+
+.section-container-details {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  border-left: 5px solid #667eea;
+  color: inherit;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-container-details h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.section-container-details strong {
+  color: white;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }

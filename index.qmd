@@ -2,10 +2,6 @@
 title: "OIST Graduation Ball 2026"
 ---
 
-```{=html}
-<div class="top-section">
-```
-
 ::: event-details
 
 🗓️ Feb 27<sup>th</sup> Fri  
@@ -32,9 +28,8 @@ title: "OIST Graduation Ball 2026"
   updateCountdown();
 </script>
 
-</div>
+<div class="three-column-layout">
 ```
-
 
 ::: section-container
 
@@ -45,6 +40,10 @@ Ticket sales will start **Monday, February 9th**.
 You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just follow the posters!
 
 **Ticket Price:** ¥5,000
+
+```{=html}
+<a href="#" class="ticket-button">Get Your Ticket</a>
+```
 
 :::
 
@@ -58,7 +57,7 @@ You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just 
 
 :::
 
-::: section-container
+::: section-container-featured
 
 ## 🎉 Entertainment
 
@@ -68,5 +67,28 @@ You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just 
 -   Karaoke room
 -   Photo booth
 -   And more!
+
+:::
+
+```{=html}
+</div>
+```
+
+::: section-container-details
+
+## ℹ️ Practical Information
+
+**Dress Code:** Smart Casual / Formal
+
+**Location:** OIST Center Building (Okinawa Institute of Science and Technology), Okinawa
+
+**What to Bring:** 
+- Valid ID (for alcohol service)
+- Cash (small amount for convenience)
+- iPhone/Android for easy Instagram access to our entertainment partners
+
+**Parking:** Available at OIST campus
+
+**Questions?** Find us at Cafe Tancha during ticket sales!
 
 :::
