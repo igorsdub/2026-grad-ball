@@ -3,6 +3,7 @@ project:
 
 website:
   title: "OIST Graduation Ball 2026"
+  page-footer: "by Igors Dubanevics | 2026"
 
 format:
   html:
