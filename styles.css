@@ -1,5 +1,22 @@
 /* css styles */
 
+.top-section {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.top-section > .event-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.top-section > .countdown-container {
+  flex: 1;
+  min-width: 300px;
+}
+
 .event-details {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
