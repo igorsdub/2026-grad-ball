@@ -17,8 +17,40 @@ title: "OIST Graduation Ball 2026"
     const eventDate = new Date('2026-02-27T00:00:00').getTime();
     const today = new Date().getTime();
     const daysRemaining = Math.ceil((eventDate - today) / (1000 * 60 * 60 * 24));
+    const maxDays = 60; // Starting point for blue color
     
     document.getElementById('countdown').textContent = Math.max(0, daysRemaining);
+    
+    // Calculate color transition from blue to red based on days remaining
+    let color1, color2;
+    
+    if (daysRemaining > maxDays) {
+      // All blue
+      color1 = '#667eea';
+      color2 = '#764ba2';
+    } else if (daysRemaining < 0) {
+      // All red
+      color1 = '#f093fb';
+      color2 = '#f5576c';
+    } else {
+      // Transition from blue to red
+      const ratio = 1 - (daysRemaining / 19);
+      
+      // Blue: #667eea → Red: #f093fb
+      const r1 = Math.round(102 + (240 - 102) * ratio);
+      const g1 = Math.round(126 + (147 - 126) * ratio);
+      const b1 = Math.round(234 + (251 - 234) * ratio);
+      color1 = `rgb(${r1}, ${g1}, ${b1})`;
+      
+      // Blue: #764ba2 → Red: #f5576c
+      const r2 = Math.round(118 + (245 - 118) * ratio);
+      const g2 = Math.round(75 + (87 - 75) * ratio);
+      const b2 = Math.round(162 + (108 - 162) * ratio);
+      color2 = `rgb(${r2}, ${g2}, ${b2})`;
+    }
+    
+    const countdownElement = document.querySelector('.countdown-container');
+    countdownElement.style.background = `linear-gradient(135deg, ${color1} 0%, ${color2} 100%)`;
   }
   
   updateCountdown();
