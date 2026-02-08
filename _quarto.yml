@@ -7,7 +7,6 @@ website:
 format:
   html:
     theme:
-      # - cosmo
       - quartz
     css: styles.css
     toc: false
