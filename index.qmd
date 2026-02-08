@@ -3,7 +3,7 @@ title: "OIST Graduation Ball 2026"
 ---
 
 
-<big>Join us for the biggest event of the year: an annual celebration of the OIST graduates!</big>
+<big>The biggest event of the year! Join us for the  annual celebration of the OIST graduates.</big>
 
 
 ```{=html}
@@ -56,11 +56,12 @@ Every weekday during lunch time (12:00-13:00) at Cafe Tancha.
 
 ::: section-container
 
-## 🍾 Food and Drinks
+## 🍾 Catering
 
--   All-you-can-drink alcoholic beverages
--   All-you-can-drink soft drinks
--   Finger foods
+🍹 All-you-can-drink by Lab0  
+🍽️ Finger foods by Caesar's Kitchen
+
+Detailed menu to be announced soon!
 
 :::
 
