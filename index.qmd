@@ -2,13 +2,9 @@
 title: "OIST Graduation Ball 2026"
 ---
 
-::: event-details
 
-🗓️ Feb 27<sup>th</sup> Fri  
-🕗 20:00 - late  
-📍 Center Building
+<big>Join us for the biggest event of the year: an annual celebration of the OIST graduates!</big>
 
-:::
 
 ```{=html}
 <div class="countdown-container">
@@ -31,25 +27,36 @@ title: "OIST Graduation Ball 2026"
 <div class="three-column-layout">
 ```
 
+
+
 ::: section-container
 
 ## 🎫 Ticket Sales
 
-Ticket sales will start **Monday, February 9th**.
-
-You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just follow the posters!
+Every weekday during lunch time (12:00-13:00) at Cafe Tancha.
 
 **Ticket Price:** ¥5,000
 
 ```{=html}
-<a href="#" class="ticket-button">Get Your Ticket</a>
+<a href="#" class="ticket-button">Reserve Your Ticket</a>
 ```
 
 :::
 
 ::: section-container
 
-## 🍾 What's Included
+## 📋 Event Details
+🗓️ 2026 Feb 27<sup>th</sup> Fri  
+🕗 20:00 - late  
+📍 OIST Center Building
+
+🤵 Smart Casual / Formal
+
+:::
+
+::: section-container
+
+## 🍾 Food and Drinks
 
 -   All-you-can-drink alcoholic beverages
 -   All-you-can-drink soft drinks
@@ -61,12 +68,11 @@ You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just 
 
 ## 🎉 Entertainment
 
-- Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a> 
-- Andrew and Fr. <a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a> 
-- DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a> 
--   Karaoke room
--   Photo booth
--   And more!
+🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
+🎸 Andrew and Fr. <a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
+🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>  
+🎤 Karaoke room  
+📸 Photo booth
 
 :::
 
@@ -76,19 +82,31 @@ You can find us during lunch time **(12:00-13:00)** at **Cafe Tancha** — just 
 
 ::: section-container-details
 
-## ℹ️ Practical Information
+## ℹ️ FAQs
 
-**Dress Code:** Smart Casual / Formal
+**Where exactly is the event?** Different locations within the OIST Center Building. The main event will be held in Caesar's Kitchen.
 
-**Location:** OIST Center Building (Okinawa Institute of Science and Technology), Okinawa
+**I am graduating. Do I need to get a ticket?** No, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.
 
-**What to Bring:** 
-- Valid ID (for alcohol service)
-- Cash (small amount for convenience)
-- iPhone/Android for easy Instagram access to our entertainment partners
+**How will you know who paid for a ticket?** We will have a list of ticket holders at the entrance and give you a wristband when you enter.
 
-**Parking:** Available at OIST campus
+**Guest parking?** OIST's main parking building is available for use.
 
-**Questions?** Find us at Cafe Tancha during ticket sales!
+**Can I bring a guest?** Yes, but they will need to purchase a ticket for them.
 
+
+:::
+::: section-container-sponsors
+## 🙏 Sponsors
+TBA
+:::
+
+::: section-container-contact
+## 📬 Contact Us
+Find us at Cafe Tancha during ticket sales or email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
+:::
+
+::: section-container-organizers
+## 👩‍💼 Organizers
+TBD
 :::
