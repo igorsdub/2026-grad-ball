@@ -65,12 +65,13 @@ title: "OIST Graduation Ball 2026"
 
 ## 🎫 Ticket Sales
 
-Every weekday during lunch time (12:00-13:00) at Cafe Tancha.
+Every weekday during lunch time (12:00-13:00) at Cafe Tancha big table.  
+**<span style="color: orange;">Number of tickets is limited!</span>**
 
 **Ticket Price:** ¥5,000
 
 ```{=html}
-<a href="#" class="ticket-button">Reserve Your Ticket</a>
+<a href="#" class="ticket-button">Reserve Here</a>
 ```
 
 :::
@@ -80,8 +81,7 @@ Every weekday during lunch time (12:00-13:00) at Cafe Tancha.
 ## 📋 Event Details
 🗓️ 2026 Feb 27<sup>th</sup> Fri  
 🕗 20:00 - late  
-📍 OIST Center Building
-
+📍 OIST Center Building  
 🤵 Cocktail attire
 
 :::
@@ -93,7 +93,7 @@ Every weekday during lunch time (12:00-13:00) at Cafe Tancha.
 🍹 All-you-can-drink by Lab0  
 🍽️ Finger foods by Caesar's Kitchen
 
-Detailed menu to be announced soon!
+Detailed menu to be announced soon.
 
 :::
 
@@ -113,10 +113,9 @@ Detailed menu to be announced soon!
 </div>
 ```
 
-::: section-container-gallery
 
 ## OIST Graduation Ball 2019
-This year will be the first time the Graduation Ball held on campus since 2019. Here are some memories from that event event!
+This year will be the first time the Graduation Ball will be held on campus since 2019.
 
 ```{=html}
 <div class="gallery-container">
@@ -188,25 +187,28 @@ displayGalleryImage();
 autoGallery();
 </script>
 ```
-:::
 
 
-::: section-container
+
 
 ## ℹ️ FAQs
 
-**Where exactly is the event?** Different locations within the OIST Center Building. The main event will be held in Caesar's Kitchen.
+**Where exactly is the event?**  
+Different locations within the OIST Center Building. The main event will be held in Caesar's Kitchen.
 
-**I am graduating. Do I need to get a ticket?** No, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.
+**I am graduating. Do I need to get a ticket?**  
+No, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.
 
-**How will you know who paid for a ticket?** We will have a list of ticket holders at the entrance and give you a wristband when you enter.
+**How will you know who paid for a ticket?**  
+We will have a list of ticket holders at the entrance and give you a wristband when you enter.
 
-**Guest parking?** OIST's main parking building is available for use.
+**Guest parking?**  
+OIST's main parking building is available for use.
 
-**Can I bring a guest?** Yes, but they will need to purchase a ticket for them.
+**Can I bring a guest?**  
+Yes, but they will need to purchase a ticket for them.
 
 
-:::
 ::: section-container-sponsors
 ## 🙏 Sponsors
 TBA
