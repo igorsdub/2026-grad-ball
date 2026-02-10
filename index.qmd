@@ -98,8 +98,8 @@ Detailed menu to be announced soon.
 
 ## 🎉 Entertainment
 
-🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
 🎸 Andrew and Fr. <a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
+🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
 🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>  
 🎤 Karaoke room  
 📸 Photo booth
