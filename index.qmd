@@ -62,7 +62,6 @@ title: "OIST Graduation Ball 2026"
     <div class="progress-bar">
       <div class="progress-fill progress-striped progress-animated" id="progressFill"></div>
     </div>
-    <div class="progress-text" id="progressText">0 / 200</div>
   </div>
 </div>
 
