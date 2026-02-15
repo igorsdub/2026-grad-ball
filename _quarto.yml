@@ -4,6 +4,7 @@ project:
 website:
   title: "OIST Graduation Ball 2026"
   page-footer: "Created with [Quarto](https://quarto.org) by Igors Dubanevics | 2026"
+  favicon: <link rel="icon" href="https://fav.farm/🪩" />
 
 format:
   html:
