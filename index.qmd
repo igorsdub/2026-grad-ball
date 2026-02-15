@@ -56,6 +56,31 @@ title: "OIST Graduation Ball 2026"
   updateCountdown();
 </script>
 
+<div class="progress-container">
+  <div class="progress-title">Tickets Sold</div>
+  <div class="progress-bar-wrapper">
+    <div class="progress-bar">
+      <div class="progress-fill progress-striped progress-animated" id="progressFill"></div>
+    </div>
+    <div class="progress-text" id="progressText">0 / 200</div>
+  </div>
+</div>
+
+<script>
+  // Update ticket progress bar
+  // Edit ticketsSold and totalTickets values below
+  const ticketsSold = 62;
+  const totalTickets = 200;
+  
+  function updateProgressBar() {
+    const percentage = (ticketsSold / totalTickets) * 100;
+    document.getElementById('progressFill').style.width = percentage + '%';
+    document.getElementById('progressText').textContent = ticketsSold + ' / ' + totalTickets;
+  }
+  
+  updateProgressBar();
+</script>
+
 <div class="three-column-layout">
 ```
 
@@ -186,18 +211,16 @@ autoGallery();
 ```
 
 
-
-
 ## ℹ️ FAQs
 
 **Where exactly is the event?**  
 Different locations within the OIST Center Building. The main event will be held in Caesar's Kitchen.
 
 **I am graduating. Do I need to get a ticket?**  
-No, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.
+No, graduates get free entry. Please email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
 
-**How will you know who paid for a ticket?**  
-We will have a list of ticket holders at the entrance and give you a wristband when you enter.
+**How do I check in on the day of the event?** 
+If you purchased your ticket, you should’ve received an individual QR code that will be scanned on the day of the event. If you haven’t received it yet, contact [graduationball@oist.jp](mailto:graduationball@oist.jp).
 
 **Guest parking?**  
 OIST's main parking building is available for use.
@@ -206,11 +229,6 @@ OIST's main parking building is available for use.
 Yes, but they will need to purchase a ticket for them.
 
 
-::: section-container-sponsors
-## 🙏 Sponsors
-TBA
-:::
-
 ::: section-container-contact
 ## 📬 Contact Us
 Find us at Cafe Tancha during ticket sales or email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
@@ -218,5 +236,16 @@ Find us at Cafe Tancha during ticket sales or email us at [graduationball@oist.j
 
 ::: section-container-organizers
 ## 👩‍💼 Organizers
-TBD
+Alessandra De Amici, Anzhelika Koldaeva, Christian Amor Rodriguez, Diala Edde, Ian Christopher Johnson, Jann Zwahlen, Kokila Dilhani Perera, Lorena Andreoli, Maya Agata, Maya Street, Miyu Nambu, Simone Tandurella, and Xim Yue Hong.
+:::
+
+::: section-container-donations
+## 💖 Donations
+TBA
+:::
+
+::: section-container-sponsors
+## 🙏 Sponsors
+<img src="images/cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;">
+
 :::
