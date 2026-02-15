@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-11fe29bdaab0098cb6db02835360af94.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-415b8f60939d86bad38bb8e160737bac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -152,13 +152,31 @@ ul.task-list li input[type="checkbox"] {
   updateCountdown();
 </script>
 
+<div class="progress-container">
+  <div class="progress-title">Tickets Sold</div>
+  <div class="progress-bar-wrapper">
+    <div class="progress-bar">
+      <div class="progress-fill progress-striped progress-animated" id="progressFill"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Update ticket progress bar
+  // Edit ticketsSold and totalTickets values below
+  const ticketsSold = 62;
+  const totalTickets = 200;
+  
+  function updateProgressBar() {
+    const percentage = (ticketsSold / totalTickets) * 100;
+    document.getElementById('progressFill').style.width = percentage + '%';
+    document.getElementById('progressText').textContent = ticketsSold + ' / ' + totalTickets;
+  }
+  
+  updateProgressBar();
+</script>
+
 <div class="three-column-layout">
-<section id="ticket-sales" class="level2 section-container">
-<h2 class="anchored" data-anchor-id="ticket-sales">🎫 Ticket Sales</h2>
-<p>Every weekday during lunch time (12:00-13:00) at Cafe Tancha big table.<br>
-<strong><span style="color: orange;">Number of tickets is limited!</span></strong></p>
-<p>Can’t make it at lunchtime? Email us at <a href="mailto:graduationball@oist.jp">graduationball@oist.jp</a>.</p>
-</section>
 <section id="event-details" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="event-details">📋 Event Details</h2>
 <p>🗓️ 2026 Feb 27<sup>th</sup> Fri<br>
@@ -167,11 +185,11 @@ ul.task-list li input[type="checkbox"] {
 <p>🤵 Cocktail Attire or National Dress<br>
 🎟️ ¥5,000 (food, drinks, and more)</p>
 </section>
-<section id="catering" class="level2 section-container">
-<h2 class="anchored" data-anchor-id="catering">🍾 Catering</h2>
-<p>🍹 All-you-can-drink by Lab0<br>
-🍽️ Finger foods by Caesar’s Kitchen</p>
-<p>Detailed menu to be announced soon.</p>
+<section id="ticket-sales" class="level2 section-container">
+<h2 class="anchored" data-anchor-id="ticket-sales">🎫 Ticket Sales</h2>
+<p>Every weekday during lunch time (12:00-13:00) at Cafe Tancha big table.<br>
+<strong><span style="color: orange;">Number of tickets is limited!</span></strong></p>
+<p>Can’t make it at lunchtime? Email us at <a href="mailto:graduationball@oist.jp">graduationball@oist.jp</a>.</p>
 </section>
 <section id="entertainment" class="level2 section-container-featured">
 <h2 class="anchored" data-anchor-id="entertainment">🎉 Entertainment</h2>
@@ -180,6 +198,12 @@ ul.task-list li input[type="checkbox"] {
 🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a><br>
 🎤 Karaoke room<br>
 📸 Photo booth</p>
+</section>
+<section id="catering" class="level2 section-container">
+<h2 class="anchored" data-anchor-id="catering">🍾 Catering</h2>
+<p>🍹 All-you-can-drink by Lab0<br>
+🍽️ Finger foods by Caesar’s Kitchen</p>
+<p>Detailed menu to be announced soon.</p>
 </section>
 </div>
 <section id="oist-graduation-ball-2019" class="level2">
@@ -190,9 +214,8 @@ ul.task-list li input[type="checkbox"] {
     <img class="gallery-image" src="images/2019-oist-grad-ball_01.jpg" alt="2019 Graduation Ball - Photo 1">
     <img class="gallery-image" src="images/2019-oist-grad-ball_02.jpg" alt="2019 Graduation Ball - Photo 2">
     <img class="gallery-image" src="images/2019-oist-grad-ball_03.jpg" alt="2019 Graduation Ball - Photo 3">
-    <img class="gallery-image" src="images/2019-oist-grad-ball_04.jpg" alt="2019 Graduation Ball - Photo 4">
-    <img class="gallery-image" src="images/2019-oist-grad-ball_05.jpg" alt="2019 Graduation Ball - Photo 5">
-    <img class="gallery-image" src="images/2019-oist-grad-ball_06.jpg" alt="2019 Graduation Ball - Photo 6">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_05.jpg" alt="2019 Graduation Ball - Photo 4">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_06.jpg" alt="2019 Graduation Ball - Photo 5">
 </div>
   <button class="gallery-nav gallery-prev" onclick="changeGalleryImage(-1)">❮</button>
   <button class="gallery-nav gallery-next" onclick="changeGalleryImage(1)">❯</button>
@@ -200,7 +223,9 @@ ul.task-list li input[type="checkbox"] {
     <span class="dot active" onclick="currentGalleryImage(0)"></span>
     <span class="dot" onclick="currentGalleryImage(1)"></span>
     <span class="dot" onclick="currentGalleryImage(2)"></span>
-    <span class="dot" onclick="currentGalleryImage(3)"></span>    <span class="dot" onclick="currentGalleryImage(4)"></span>    <span class="dot" onclick="currentGalleryImage(5)"></span>  </div>
+    <span class="dot" onclick="currentGalleryImage(3)"></span>
+    <span class="dot" onclick="currentGalleryImage(4)"></span>
+  </div>
 </div>
 
 <script>
@@ -259,9 +284,8 @@ autoGallery();
 <p><strong>Where exactly is the event?</strong><br>
 Different locations within the OIST Center Building. The main event will be held in Caesar’s Kitchen.</p>
 <p><strong>I am graduating. Do I need to get a ticket?</strong><br>
-No, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.</p>
-<p><strong>How will you know who paid for a ticket?</strong><br>
-We will have a list of ticket holders at the entrance and give you a wristband when you enter.</p>
+No, graduates get free entry. Please email us at <a href="mailto:graduationball@oist.jp">graduationball@oist.jp</a>.</p>
+<p><strong>How do I check in on the day of the event?</strong> If you purchased your ticket, you should’ve received an individual QR code that will be scanned on the day of the event. If you haven’t received it yet, contact <a href="mailto:graduationball@oist.jp">graduationball@oist.jp</a>.</p>
 <p><strong>Guest parking?</strong><br>
 OIST’s main parking building is available for use.</p>
 <p><strong>Can I bring a guest?</strong><br>
@@ -269,7 +293,7 @@ Yes, but they will need to purchase a ticket for them.</p>
 </section>
 <section id="sponsors" class="level2 section-container-sponsors">
 <h2 class="anchored" data-anchor-id="sponsors">🙏 Sponsors</h2>
-<p>TBA</p>
+<p><img src="images/cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;"></p>
 </section>
 <section id="contact-us" class="level2 section-container-contact">
 <h2 class="anchored" data-anchor-id="contact-us">📬 Contact Us</h2>
@@ -277,7 +301,7 @@ Yes, but they will need to purchase a ticket for them.</p>
 </section>
 <section id="organizers" class="level2 section-container-organizers">
 <h2 class="anchored" data-anchor-id="organizers">👩‍💼 Organizers</h2>
-<p>TBD</p>
+<p>Alessandra De Amici, Anzhelika Koldaeva, Christian Amor Rodriguez, Diala Edde, Ian Christopher Johnson, Jann Zwahlen, Kokila Dilhani Perera, Lorena Andreoli, Maya Agata, Maya Street, Miyu Nambu, Simone Tandurella, and Xim Yue Hong.</p>
 </section>
 
 
@@ -690,7 +714,7 @@ Yes, but they will need to purchase a ticket for them.</p>
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>by Igors Dubanevics | 2026</p>
+<p>Created with <a href="https://quarto.org">Quarto</a> by Igors Dubanevics | 2026</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

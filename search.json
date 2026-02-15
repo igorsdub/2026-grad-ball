@@ -7,13 +7,6 @@
     "text": "The biggest event of the year! Join us for the annual celebration of the OIST graduates."
   },
   {
-    "objectID": "index.html#ticket-sales",
-    "href": "index.html#ticket-sales",
-    "title": "OIST Graduation Ball 2026",
-    "section": "🎫 Ticket Sales",
-    "text": "🎫 Ticket Sales\nEvery weekday during lunch time (12:00-13:00) at Cafe Tancha big table.\nNumber of tickets is limited!\nCan’t make it at lunchtime? Email us at graduationball@oist.jp."
-  },
-  {
     "objectID": "index.html#event-details",
     "href": "index.html#event-details",
     "title": "OIST Graduation Ball 2026",
@@ -21,11 +14,11 @@
     "text": "📋 Event Details\n🗓️ 2026 Feb 27th Fri\n🕗 20:00 - late\n📍 OIST Center Building\n🤵 Cocktail Attire or National Dress\n🎟️ ¥5,000 (food, drinks, and more)"
   },
   {
-    "objectID": "index.html#catering",
-    "href": "index.html#catering",
+    "objectID": "index.html#ticket-sales",
+    "href": "index.html#ticket-sales",
     "title": "OIST Graduation Ball 2026",
-    "section": "🍾 Catering",
-    "text": "🍾 Catering\n🍹 All-you-can-drink by Lab0\n🍽️ Finger foods by Caesar’s Kitchen\nDetailed menu to be announced soon."
+    "section": "🎫 Ticket Sales",
+    "text": "🎫 Ticket Sales\nEvery weekday during lunch time (12:00-13:00) at Cafe Tancha big table.\nNumber of tickets is limited!\nCan’t make it at lunchtime? Email us at graduationball@oist.jp."
   },
   {
     "objectID": "index.html#entertainment",
@@ -35,25 +28,32 @@
     "text": "🎉 Entertainment\n🎸 Andrew and Fr. \n🎷 Modern Jazz Orchestra (MOJO) \n🎧 DJ Skeezy \n🎤 Karaoke room\n📸 Photo booth"
   },
   {
+    "objectID": "index.html#catering",
+    "href": "index.html#catering",
+    "title": "OIST Graduation Ball 2026",
+    "section": "🍾 Catering",
+    "text": "🍾 Catering\n🍹 All-you-can-drink by Lab0\n🍽️ Finger foods by Caesar’s Kitchen\nDetailed menu to be announced soon."
+  },
+  {
     "objectID": "index.html#oist-graduation-ball-2019",
     "href": "index.html#oist-graduation-ball-2019",
     "title": "OIST Graduation Ball 2026",
     "section": "OIST Graduation Ball 2019",
-    "text": "OIST Graduation Ball 2019\nThis year will be the first time the Graduation Ball will be held on campus since 2019.\n\n  \n    \n    \n    \n    \n    \n    \n\n  ❮\n  ❯"
+    "text": "OIST Graduation Ball 2019\nThis year will be the first time the Graduation Ball will be held on campus since 2019.\n\n  \n    \n    \n    \n    \n    \n\n  ❮\n  ❯"
   },
   {
     "objectID": "index.html#ℹ-faqs",
     "href": "index.html#ℹ-faqs",
     "title": "OIST Graduation Ball 2026",
     "section": "ℹ️ FAQs",
-    "text": "ℹ️ FAQs\nWhere exactly is the event?\nDifferent locations within the OIST Center Building. The main event will be held in Caesar’s Kitchen.\nI am graduating. Do I need to get a ticket?\nNo, graduates get free entry. Please register at Cafe Tancha during ticket sales or fill in the reservation form to help us with the headcount.\nHow will you know who paid for a ticket?\nWe will have a list of ticket holders at the entrance and give you a wristband when you enter.\nGuest parking?\nOIST’s main parking building is available for use.\nCan I bring a guest?\nYes, but they will need to purchase a ticket for them."
+    "text": "ℹ️ FAQs\nWhere exactly is the event?\nDifferent locations within the OIST Center Building. The main event will be held in Caesar’s Kitchen.\nI am graduating. Do I need to get a ticket?\nNo, graduates get free entry. Please email us at graduationball@oist.jp.\nHow do I check in on the day of the event? If you purchased your ticket, you should’ve received an individual QR code that will be scanned on the day of the event. If you haven’t received it yet, contact graduationball@oist.jp.\nGuest parking?\nOIST’s main parking building is available for use.\nCan I bring a guest?\nYes, but they will need to purchase a ticket for them."
   },
   {
     "objectID": "index.html#sponsors",
     "href": "index.html#sponsors",
     "title": "OIST Graduation Ball 2026",
     "section": "🙏 Sponsors",
-    "text": "🙏 Sponsors\nTBA"
+    "text": "🙏 Sponsors"
   },
   {
     "objectID": "index.html#contact-us",
@@ -67,6 +67,6 @@
     "href": "index.html#organizers",
     "title": "OIST Graduation Ball 2026",
     "section": "👩‍💼 Organizers",
-    "text": "👩‍💼 Organizers\nTBD"
+    "text": "👩‍💼 Organizers\nAlessandra De Amici, Anzhelika Koldaeva, Christian Amor Rodriguez, Diala Edde, Ian Christopher Johnson, Jann Zwahlen, Kokila Dilhani Perera, Lorena Andreoli, Maya Agata, Maya Street, Miyu Nambu, Simone Tandurella, and Xim Yue Hong."
   }
 ]
