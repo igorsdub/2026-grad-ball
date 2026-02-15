@@ -119,9 +119,8 @@ This year will be the first time the Graduation Ball will be held on campus sinc
     <img class="gallery-image" src="images/2019-oist-grad-ball_01.jpg" alt="2019 Graduation Ball - Photo 1">
     <img class="gallery-image" src="images/2019-oist-grad-ball_02.jpg" alt="2019 Graduation Ball - Photo 2">
     <img class="gallery-image" src="images/2019-oist-grad-ball_03.jpg" alt="2019 Graduation Ball - Photo 3">
-    <img class="gallery-image" src="images/2019-oist-grad-ball_04.jpg" alt="2019 Graduation Ball - Photo 4">
-    <img class="gallery-image" src="images/2019-oist-grad-ball_05.jpg" alt="2019 Graduation Ball - Photo 5">
-    <img class="gallery-image" src="images/2019-oist-grad-ball_06.jpg" alt="2019 Graduation Ball - Photo 6">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_05.jpg" alt="2019 Graduation Ball - Photo 4">
+    <img class="gallery-image" src="images/2019-oist-grad-ball_06.jpg" alt="2019 Graduation Ball - Photo 5">
 </div>
   <button class="gallery-nav gallery-prev" onclick="changeGalleryImage(-1)">❮</button>
   <button class="gallery-nav gallery-next" onclick="changeGalleryImage(1)">❯</button>
@@ -129,7 +128,9 @@ This year will be the first time the Graduation Ball will be held on campus sinc
     <span class="dot active" onclick="currentGalleryImage(0)"></span>
     <span class="dot" onclick="currentGalleryImage(1)"></span>
     <span class="dot" onclick="currentGalleryImage(2)"></span>
-    <span class="dot" onclick="currentGalleryImage(3)"></span>    <span class="dot" onclick="currentGalleryImage(4)"></span>    <span class="dot" onclick="currentGalleryImage(5)"></span>  </div>
+    <span class="dot" onclick="currentGalleryImage(3)"></span>
+    <span class="dot" onclick="currentGalleryImage(4)"></span>
+  </div>
 </div>
 
 <script>
