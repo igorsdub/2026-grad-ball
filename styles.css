@@ -45,7 +45,7 @@
 
 .progress-container {
   text-align: center;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.35) 0%, rgba(118, 75, 162, 0.35) 100%);
   color: white;
   padding: 2rem;
   border-radius: 12px;
@@ -54,11 +54,11 @@
 }
 
 .progress-title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
   letter-spacing: 0.5px;
-  color: #e0e0e0;
+  color: white;
 }
 
 .progress-bar-wrapper {
@@ -77,7 +77,7 @@
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: #ed7182;
   width: 0%;
   transition: width 0.3s ease;
   border-radius: 12px;
