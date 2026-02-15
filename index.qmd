@@ -87,18 +87,6 @@ title: "OIST Graduation Ball 2026"
 
 ::: section-container
 
-## 🎫 Ticket Sales
-
-Every weekday during lunch time (12:00-13:00) at Cafe Tancha big table.  
-**<span style="color: orange;">Number of tickets is limited!</span>**
-
-
-Can't make it at lunchtime? Email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
-
-:::
-
-::: section-container
-
 ## 📋 Event Details
 🗓️ 2026 Feb 27<sup>th</sup> Fri  
 🕗 20:00 - late  
@@ -110,12 +98,14 @@ Can't make it at lunchtime? Email us at [graduationball@oist.jp](mailto:graduati
 
 ::: section-container
 
-## 🍾 Catering
+## 🎫 Ticket Sales
 
-🍹 All-you-can-drink by Lab0  
-🍽️ Finger foods by Caesar's Kitchen
+Every weekday during lunch time (12:00-13:00) at Cafe Tancha big table.  
+**<span style="color: orange;">Number of tickets is limited!</span>**
 
-Detailed menu to be announced soon.
+
+Can't make it at lunchtime? Email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
+
 :::
 
 ::: section-container-featured
@@ -127,6 +117,16 @@ Detailed menu to be announced soon.
 🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>  
 🎤 Karaoke room  
 📸 Photo booth
+:::
+
+::: section-container
+
+## 🍾 Catering
+
+🍹 All-you-can-drink by Lab0  
+🍽️ Finger foods by Caesar's Kitchen
+
+Detailed menu to be announced soon.
 :::
 
 ```{=html}
@@ -228,6 +228,12 @@ OIST's main parking building is available for use.
 Yes, but they will need to purchase a ticket for them.
 
 
+::: section-container-sponsors
+## 🙏 Sponsors
+<img src="images/cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;">
+
+:::
+
 ::: section-container-contact
 ## 📬 Contact Us
 Find us at Cafe Tancha during ticket sales or email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
@@ -236,15 +242,4 @@ Find us at Cafe Tancha during ticket sales or email us at [graduationball@oist.j
 ::: section-container-organizers
 ## 👩‍💼 Organizers
 Alessandra De Amici, Anzhelika Koldaeva, Christian Amor Rodriguez, Diala Edde, Ian Christopher Johnson, Jann Zwahlen, Kokila Dilhani Perera, Lorena Andreoli, Maya Agata, Maya Street, Miyu Nambu, Simone Tandurella, and Xim Yue Hong.
-:::
-
-::: section-container-donations
-## 💖 Donations
-TBA
-:::
-
-::: section-container-sponsors
-## 🙏 Sponsors
-<img src="images/cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;">
-
 :::
