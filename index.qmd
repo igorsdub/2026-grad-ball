@@ -68,7 +68,7 @@ title: "OIST Graduation Ball 2026"
 <script>
   // Update ticket progress bar
   // Edit ticketsSold and totalTickets values below
-  const ticketsSold = 62;
+  const ticketsSold = 91;
   const totalTickets = 200;
   
   function updateProgressBar() {
@@ -128,7 +128,7 @@ Buy your ticket by **February 20th** to enter our raffle and win:
 🎸 Andrew and Fr. <a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
 🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
 🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>  
-🎤 Karaoke room  
+🎤 Karaoke room  ****
 📸 Photo booth
 :::
 
