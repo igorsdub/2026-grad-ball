@@ -108,6 +108,19 @@ Can't make it at lunchtime? Email us at [graduationball@oist.jp](mailto:graduati
 
 :::
 
+::: section-container
+
+## 🎰 Raffle
+
+Buy your ticket by **February 20th** to enter our raffle and win:
+
+1. 🏨 Free stay voucher at Miyuki Beach Hotel <a href="https://www.instagram.com/hotelmiyukibeach_official"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>
+2. 🏨 Free stay voucher at Rizzan Sea-Park Hotel
+3. 🍽️ Dinner for two voucher at Rizzan
+4. 🍽️ Lunch for two voucher at Rizzan
+
+:::
+
 ::: section-container-featured
 
 ## 🎉 Entertainment
