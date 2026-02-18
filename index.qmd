@@ -258,6 +258,15 @@ Yes, but they will need to purchase a ticket for them.
 
 :::
 
+::: section-container
+## 💝 Donors
+
+We would like to thank our OIST community. Every donation, big or small, helps us make this night unforgettable for our graduates.
+
+Amedeo Roberto Esposito, Amy Shen, Daniel Mueller, Dyon van Dinter, Gaspar Sanchez, Hideaki Kawai, Hugo Hoedemaker, Isaku Higa, Jamie Sanderson, Jamila Rodrigues, Julio Barros, Kacper Nowak, Kenji Doya, Lilian Magnus, Okay Cem, Pinaki Chakraborty, Samuel Ross, Satoshi Mitarai, Shigeharu Kato, Shinji Narita, Simone Pigolotti, Tom Froese, Yifan Wang, Yukiko Gouda
+
+:::
+
 ::: section-container-contact
 ## 📬 Contact Us
 Find us at Cafe Tancha during ticket sales or email us at [graduationball@oist.jp](mailto:graduationball@oist.jp).
