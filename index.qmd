@@ -223,6 +223,18 @@ autoGallery();
 ```
 
 
+::: section-container-featured
+
+## ⚠️ Safe Space Policy
+
+All participants are expected to contribute to a **safe and respectful environment**. This event is a safe space for women and the LGBTQIA+ community. 
+
+**We have a zero tolerance policy towards harassment of any kind** on the basis of gender, sexuality, race, outfit choice, or any other characteristic.
+
+Harassment, discrimination, or offensive behavior are not tolerated. Individuals who violate these expectations may be asked to leave and will be subjected to OIST anti-harassment policies.
+
+:::
+
 ## ℹ️ FAQs
 
 **Where exactly is the event?**  
