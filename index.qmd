@@ -80,16 +80,7 @@ title: "OIST Graduation Ball 2026"
   updateProgressBar();
 </script>
 
-<div class="raffle-container">
-  <div class="raffle-title">🎰 Raffle</div>
-  <p style="margin: 1rem 0 1.5rem 0; font-size: 1rem; text-align: center;">Buy your ticket by <strong>February 20th</strong> to enter our raffle and win:</p>
-  <ol style="margin: 1rem auto; padding-left: 2rem; font-size: 1rem; max-width: 500px; text-align: left;">
-    <li style="margin: 0.8rem 0;">🏨 Free stay voucher at Miyuki Beach Hotel <a href="https://www.instagram.com/hotelmiyukibeach_official"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 16px; height: 16px; vertical-align: middle; margin-left: 0.5rem;"></a></li>
-    <li style="margin: 0.8rem 0;">🏨 Free stay voucher at Rizzan Sea-Park Hotel</li>
-    <li style="margin: 0.8rem 0;">🍽️ Dinner for two voucher at Rizzan</li>
-    <li style="margin: 0.8rem 0;">🍽️ Lunch for two voucher at Rizzan</li>
-  </ol>
-</div>
+
 ```
 
 ```{=html}
@@ -120,15 +111,16 @@ Can't make it at lunchtime? Email us at [graduationball@oist.jp](mailto:graduati
 
 :::
 
-::: section-container-featured
+::: section-container
 
-## 🎉 Entertainment
+## 🎰 Raffle
+If you bought a ticket by **February 20th**, you :
 
-🎸 Andrew and Fr. <a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
-🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
-🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>  
-🎤 Karaoke room  
-📸 Photo booth
+🏨 Stay at Miyuki Beach Hotel <a href="https://www.instagram.com/hotelmiyukibeach_official"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 16px; height: 16px; vertical-align: middle;"></a>  
+🏨 Stay at Rizzan Sea-Park Hotel <a href="https://www.instagram.com/rizzan.sea.park.hotel_resort"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 16px; height: 16px; vertical-align: middle;"></a>   
+🍽️ Dinner for two at Rizzan  
+🍽️ Lunch for two at Rizzan  
+
 :::
 
 ::: section-container
@@ -140,6 +132,18 @@ Can't make it at lunchtime? Email us at [graduationball@oist.jp](mailto:graduati
 
 Detailed menu to be announced soon.
 :::
+
+::: section-container-featured
+
+## 🎉 Entertainment
+
+🎸 Andrew and Fr. <a href="https://www.instagram.com/andrew.and.fr"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
+🎷 Modern Jazz Orchestra (MOJO) <a href="https://www.instagram.com/ryudaimojo"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>   
+🎧 DJ Skeezy <a href="https://www.instagram.com/djskeezy"><img src="images/instagram-icon-white.svg" class="instagram-img" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 0.5rem;"></a>  
+🎤 Karaoke room  
+📸 Photo booth
+:::
+
 
 ```{=html}
 </div>
