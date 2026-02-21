@@ -160,7 +160,7 @@ Detailed menu to be announced soon.
 This year will be the first time the Graduation Ball will be held on campus since 2019.
 
 ```{=html}
-<div style="max-width: 800px; margin: 0 auto;">
+<div style="max-width: 800px; margin: 0 auto;" id="photo-gallery">
 <div class="gallery-container" style="max-width: 100%;">
   <div class="gallery-wrapper">
     <img class="gallery-image" src="images/2019-oist-grad-ball_01.jpg" alt="2019 Graduation Ball - Photo 1">
@@ -188,11 +188,12 @@ let galleryTimer;
 function changeGalleryImage(n) {
   clearTimeout(galleryTimer);
   galleryIndex += n;
-  if (galleryIndex >= document.querySelectorAll('.gallery-image').length) {
+  const galleryImages = document.querySelectorAll('#photo-gallery .gallery-image');
+  if (galleryIndex >= galleryImages.length) {
     galleryIndex = 0;
   }
   if (galleryIndex < 0) {
-    galleryIndex = document.querySelectorAll('.gallery-image').length - 1;
+    galleryIndex = galleryImages.length - 1;
   }
   displayGalleryImage();
   autoGallery();
@@ -206,20 +207,21 @@ function currentGalleryImage(n) {
 }
 
 function displayGalleryImage() {
-  const images = document.querySelectorAll('.gallery-image');
-  const dots = document.querySelectorAll('.dot');
+  const galleryImages = document.querySelectorAll('#photo-gallery .gallery-image');
+  const galleryDots = document.querySelectorAll('#photo-gallery .dot');
   
-  images.forEach(img => img.style.display = 'none');
-  images[galleryIndex].style.display = 'block';
+  galleryImages.forEach(img => img.style.display = 'none');
+  galleryImages[galleryIndex].style.display = 'block';
   
-  dots.forEach(dot => dot.classList.remove('active'));
-  dots[galleryIndex].classList.add('active');
+  galleryDots.forEach(dot => dot.classList.remove('active'));
+  galleryDots[galleryIndex].classList.add('active');
 }
 
 function autoGallery() {
   galleryTimer = setTimeout(() => {
     galleryIndex++;
-    if (galleryIndex >= document.querySelectorAll('.gallery-image').length) {
+    const galleryImages = document.querySelectorAll('#photo-gallery .gallery-image');
+    if (galleryIndex >= galleryImages.length) {
       galleryIndex = 0;
     }
     displayGalleryImage();
@@ -266,7 +268,80 @@ Yes, but they will need to purchase a ticket for them.
 
 ::: section-container-sponsors
 ## 🙏 Sponsors
-<img src="images/logo_cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;">
+
+```{=html}
+<div style="max-width: 800px; margin: 0 auto;">
+<div class="gallery-container" style="max-width: 100%;">
+  <div class="gallery-wrapper">
+    <img class="gallery-image" src="images/logo_cezars-kitchen-logo.svg" alt="Caesar's Kitchen Logo">
+    <img class="gallery-image" src="images/logo_cafe-tancha.jpeg" alt="Cafe Tancha Logo">
+    <img class="gallery-image" src="images/logo_hotel-miyuki-beach.jpeg" alt="Miyuki Beach Hotel Logo">
+    <img class="gallery-image" src="images/logo_hotel-rizzan-sea-park.jpeg" alt="Rizzan Sea-Park Hotel Logo">
+  </div>
+  <button class="gallery-nav gallery-prev" onclick="changeSponsorImage(-1)">❮</button>
+  <button class="gallery-nav gallery-next" onclick="changeSponsorImage(1)">❯</button>
+  <div class="gallery-dots">
+    <span class="dot active" onclick="currentSponsorImage(0)"></span>
+    <span class="dot" onclick="currentSponsorImage(1)"></span>
+    <span class="dot" onclick="currentSponsorImage(2)"></span>
+    <span class="dot" onclick="currentSponsorImage(3)"></span>
+  </div>
+</div>
+</div>
+
+<script>
+let sponsorIndex = 0;
+let sponsorTimer;
+
+function changeSponsorImage(n) {
+  clearTimeout(sponsorTimer);
+  sponsorIndex += n;
+  const sponsorImages = document.querySelectorAll('.section-container-sponsors .gallery-image');
+  if (sponsorIndex >= sponsorImages.length) {
+    sponsorIndex = 0;
+  }
+  if (sponsorIndex < 0) {
+    sponsorIndex = sponsorImages.length - 1;
+  }
+  displaySponsorImage();
+  autoSponsor();
+}
+
+function currentSponsorImage(n) {
+  clearTimeout(sponsorTimer);
+  sponsorIndex = n;
+  displaySponsorImage();
+  autoSponsor();
+}
+
+function displaySponsorImage() {
+  const sponsorImages = document.querySelectorAll('.section-container-sponsors .gallery-image');
+  const sponsorDots = document.querySelectorAll('.section-container-sponsors .dot');
+  
+  sponsorImages.forEach(img => img.style.display = 'none');
+  sponsorImages[sponsorIndex].style.display = 'block';
+  
+  sponsorDots.forEach(dot => dot.classList.remove('active'));
+  sponsorDots[sponsorIndex].classList.add('active');
+}
+
+function autoSponsor() {
+  sponsorTimer = setTimeout(() => {
+    sponsorIndex++;
+    const sponsorImages = document.querySelectorAll('.section-container-sponsors .gallery-image');
+    if (sponsorIndex >= sponsorImages.length) {
+      sponsorIndex = 0;
+    }
+    displaySponsorImage();
+    autoSponsor();
+  }, 4000);
+}
+
+// Initialize sponsor gallery
+displaySponsorImage();
+autoSponsor();
+</script>
+```
 
 :::
 
