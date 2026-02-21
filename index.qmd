@@ -273,7 +273,7 @@ Yes, but they will need to purchase a ticket for them.
 <div style="max-width: 800px; margin: 0 auto;">
 <div class="gallery-container" style="max-width: 100%;">
   <div class="gallery-wrapper">
-    <img class="gallery-image" src="images/logo_cezars-kitchen-logo.svg" alt="Caesar's Kitchen Logo">
+    <img class="gallery-image" src="images/logo_cezars-kitchen.jpeg" alt="Caesar's Kitchen Logo">
     <img class="gallery-image" src="images/logo_cafe-tancha.jpeg" alt="Cafe Tancha Logo">
     <img class="gallery-image" src="images/logo_hotel-miyuki-beach.jpeg" alt="Miyuki Beach Hotel Logo">
     <img class="gallery-image" src="images/logo_hotel-rizzan-sea-park.jpeg" alt="Rizzan Sea-Park Hotel Logo">
