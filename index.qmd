@@ -68,7 +68,7 @@ title: "OIST Graduation Ball 2026"
 <script>
   // Update ticket progress bar
   // Edit ticketsSold and totalTickets values below
-  const ticketsSold = 91;
+  const ticketsSold = 147;
   const totalTickets = 200;
   
   function updateProgressBar() {
