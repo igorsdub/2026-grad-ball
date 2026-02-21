@@ -160,7 +160,8 @@ Detailed menu to be announced soon.
 This year will be the first time the Graduation Ball will be held on campus since 2019.
 
 ```{=html}
-<div class="gallery-container">
+<div style="max-width: 800px; margin: 0 auto;">
+<div class="gallery-container" style="max-width: 100%;">
   <div class="gallery-wrapper">
     <img class="gallery-image" src="images/2019-oist-grad-ball_01.jpg" alt="2019 Graduation Ball - Photo 1">
     <img class="gallery-image" src="images/2019-oist-grad-ball_02.jpg" alt="2019 Graduation Ball - Photo 2">
@@ -177,6 +178,7 @@ This year will be the first time the Graduation Ball will be held on campus sinc
     <span class="dot" onclick="currentGalleryImage(3)"></span>
     <span class="dot" onclick="currentGalleryImage(4)"></span>
   </div>
+</div>
 </div>
 
 <script>
@@ -264,7 +266,7 @@ Yes, but they will need to purchase a ticket for them.
 
 ::: section-container-sponsors
 ## 🙏 Sponsors
-<img src="images/cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;">
+<img src="images/logo_cezars-kitchen-logo-white.svg" alt="Caesar's Kitchen Logo" class="sponsor-logo" style="width: auto; height: auto; margin-right: 2rem;">
 
 :::
 
