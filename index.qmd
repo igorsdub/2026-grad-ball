@@ -44,29 +44,9 @@ title: "OIST Graduation Ball 2026"
 </script>
 
 <div class="progress-container">
-  <div class="progress-title">Tickets Sold</div>
-  <div class="progress-bar-wrapper">
-    <div class="progress-bar">
-      <div class="progress-fill progress-striped progress-animated" id="progressFill"></div>
-    </div>
-  </div>
+  <div class="progress-title">🎟️ Tickets Sold Out</div>
+  <div>All tickets are now sold out and won't be available at the door. We kindly ask those without tickets to refrain from the event area.</div>
 </div>
-
-<script>
-  // Update ticket progress bar
-  // Edit ticketsSold and totalTickets values below
-  const ticketsSold = 147;
-  const totalTickets = 200;
-  
-  function updateProgressBar() {
-    const percentage = (ticketsSold / totalTickets) * 100;
-    document.getElementById('progressFill').style.width = percentage + '%';
-    document.getElementById('progressText').textContent = ticketsSold + ' / ' + totalTickets;
-  }
-  
-  updateProgressBar();
-</script>
-
 
 ```
 
