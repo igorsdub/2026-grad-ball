@@ -24,15 +24,15 @@ title: "OIST Graduation Ball 2026"
     </div>
     <div class="schedule-item">
       <div class="schedule-time">22:00 - 23:00</div>
-      <div class="schedule-event">🎉 OIST Party Music</div>
+      <div class="schedule-event">🎧 OIST Party Music</div>
     </div>
     <div class="schedule-item">
       <div class="schedule-time">23:00 - 01:00</div>
       <div class="schedule-event">🎧 DJ Skeezy</div>
     </div>
     <div class="schedule-item">
-      <div class="schedule-time">01:00 - onwards</div>
-      <div class="schedule-event">✨ Surface Element & Temma</div>
+      <div class="schedule-time">01:00 - ... </div>
+      <div class="schedule-event">🎧 surface element & temma</div>
     </div>
   </div>
 </div>
