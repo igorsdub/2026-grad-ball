@@ -43,6 +43,38 @@
   line-height: 1;
 }
 
+.schedule-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  gap: 1.5rem;
+}
+
+.schedule-item:last-child {
+  border-bottom: none;
+}
+
+.schedule-time {
+  font-weight: 700;
+  font-size: 1rem;
+  min-width: 120px;
+  color: white;
+}
+
+.schedule-event {
+  font-size: 1rem;
+  color: white;
+  flex-grow: 1;
+}
+
 .progress-container {
   text-align: center;
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.35) 0%, rgba(118, 75, 162, 0.35) 100%);
@@ -115,6 +147,14 @@
   margin-top: 0.8rem;
   color: white;
   font-weight: 500;
+}
+
+.sold-out-message {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 1rem;
+  letter-spacing: 1px;
 }
 
 .raffle-container {

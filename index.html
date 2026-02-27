@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-11fe29bdaab0098cb6db02835360af94.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-415b8f60939d86bad38bb8e160737bac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -105,78 +105,45 @@ ul.task-list li input[type="checkbox"] {
 
 <p><big>The biggest event of the year! Join us for the annual celebration of the OIST graduates.</big></p>
 <div class="countdown-container">
-  <div class="countdown-title">Days Until the Ball</div>
-  <div class="countdown-number" id="countdown">—</div>
-</div>
-
-<script>
-  function updateCountdown() {
-    const eventDate = new Date('2026-02-27T00:00:00').getTime();
-    const today = new Date().getTime();
-    const daysRemaining = Math.ceil((eventDate - today) / (1000 * 60 * 60 * 24));
-    const maxDays = 60; // Starting point for blue color
-    
-    document.getElementById('countdown').textContent = Math.max(0, daysRemaining);
-    
-    // Calculate color transition from blue to red based on days remaining
-    let color1, color2;
-    
-    if (daysRemaining > maxDays) {
-      // All blue
-      color1 = '#667eea';
-      color2 = '#764ba2';
-    } else if (daysRemaining < 0) {
-      // All red
-      color1 = '#f093fb';
-      color2 = '#f5576c';
-    } else {
-      // Transition from blue to red
-      const ratio = 1 - (daysRemaining / 19);
-      
-      // Blue: #667eea → Red: #f093fb
-      const r1 = Math.round(102 + (240 - 102) * ratio);
-      const g1 = Math.round(126 + (147 - 126) * ratio);
-      const b1 = Math.round(234 + (251 - 234) * ratio);
-      color1 = `rgb(${r1}, ${g1}, ${b1})`;
-      
-      // Blue: #764ba2 → Red: #f5576c
-      const r2 = Math.round(118 + (245 - 118) * ratio);
-      const g2 = Math.round(75 + (87 - 75) * ratio);
-      const b2 = Math.round(162 + (108 - 162) * ratio);
-      color2 = `rgb(${r2}, ${g2}, ${b2})`;
-    }
-    
-    const countdownElement = document.querySelector('.countdown-container');
-    countdownElement.style.background = `linear-gradient(135deg, ${color1} 0%, ${color2} 100%)`;
-  }
-  
-  updateCountdown();
-</script>
-
-<div class="progress-container">
-  <div class="progress-title">Tickets Sold</div>
-  <div class="progress-bar-wrapper">
-    <div class="progress-bar">
-      <div class="progress-fill progress-striped progress-animated" id="progressFill"></div>
+  <div class="countdown-title">🎵 Event Schedule</div>
+  <div class="schedule-content">
+    <div class="schedule-item">
+      <div class="schedule-time">19:30 - 20:00</div>
+      <div class="schedule-event">🚪 Doors Open</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">20:00 - 21:00</div>
+      <div class="schedule-event">🎤 Andrew &amp; Fr.</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">21:00 - 22:00</div>
+      <div class="schedule-event">🎶 MOJO</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">22:00 - 23:00</div>
+      <div class="schedule-event">🎧 OIST Party Music</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">23:00 - 01:00</div>
+      <div class="schedule-event">🎧 DJ Skeezy</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">01:00 - ... </div>
+      <div class="schedule-event">🎧 surface element &amp; temma</div>
     </div>
   </div>
 </div>
 
 <script>
-  // Update ticket progress bar
-  // Edit ticketsSold and totalTickets values below
-  const ticketsSold = 147;
-  const totalTickets = 200;
-  
-  function updateProgressBar() {
-    const percentage = (ticketsSold / totalTickets) * 100;
-    document.getElementById('progressFill').style.width = percentage + '%';
-    document.getElementById('progressText').textContent = ticketsSold + ' / ' + totalTickets;
-  }
-  
-  updateProgressBar();
+  // Apply gradient style to schedule container
+  const scheduleElement = document.querySelector('.countdown-container');
+  scheduleElement.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
 </script>
 
+<div class="progress-container">
+  <div class="progress-title">🎟️ Tickets Sold Out</div>
+  <div>All tickets are now sold out and won't be available at the door. We kindly ask those without tickets to refrain from the event area.</div>
+</div>
 
 <div class="three-column-layout">
 <section id="event-details" class="level2 section-container">
@@ -186,12 +153,6 @@ ul.task-list li input[type="checkbox"] {
 📍 OIST Center Building</p>
 <p>🤵 Cocktail Attire or National Dress<br>
 🎟️ ¥5,000 (food, drinks, and more)</p>
-</section>
-<section id="ticket-sales" class="level2 section-container">
-<h2 class="anchored" data-anchor-id="ticket-sales">🎫 Ticket Sales</h2>
-<p>Every weekday during lunch time (12:00-13:00) at Cafe Tancha big table.<br>
-<strong><span style="color: orange;">Number of tickets is limited!</span></strong></p>
-<p>Can’t make it at lunchtime? Email us at <a href="mailto:graduationball@oist.jp">graduationball@oist.jp</a>.</p>
 </section>
 <section id="raffle" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="raffle">🎰 Raffle</h2>
@@ -391,7 +352,7 @@ autoSponsor();
 <section id="donors" class="level2 section-container">
 <h2 class="anchored" data-anchor-id="donors">💝 Donors</h2>
 <p>We would like to thank our OIST community. Every donation, big or small, helps us make this night unforgettable for our graduates.</p>
-<p>Amedeo Roberto Esposito, Amy Shen, Daniel Mueller, Dyon van Dinter, Gaspar Sanchez, Hideaki Kawai, Hugo Hoedemaker, Isaku Higa, Jamie Sanderson, Jamila Rodrigues, Julio Barros, Kacper Nowak, Kenji Doya, Lilian Magnus, Okay Cem, Pinaki Chakraborty, Samuel Ross, Satoshi Mitarai, Shigeharu Kato, Shinji Narita, Simone Pigolotti, Tom Froese, Yifan Wang, Yukiko Gouda</p>
+<p>Adam Mago, Amedeo Roberto Esposito, Amy Shen, An-Katrien Hulsbosch, Catherine Williams, Christine Luscombe, Daniel Mueller, Dave Armitage, Dyon van Dinter, Florian Pflug, Gail Tripp, Gaspar Sanchez, Hideaki Kawai, Hugo Hoedemaker, Isaku Higa, Izumi Fukunaga, Jamie Sanderson, Jamila Rodrigues, Julio Barros, Kacper Nowak, Keiko Kono, Kenji Doya, Kozue Higashionna, Lilian Magnus, Mahesh Bandi, Mana Oguchi, Okay Cem, Pinaki Chakraborty, Samuel Ross, Satoshi Mitarai, Saze Hidetoshi, Shigeharu Kato, Shinji Narita, Simone Pigolotti, Thomas Busch, Tom Froese, Yifan Wang, Yukiko Gouda</p>
 </section>
 <section id="contact-us" class="level2 section-container-contact">
 <h2 class="anchored" data-anchor-id="contact-us">📬 Contact Us</h2>
