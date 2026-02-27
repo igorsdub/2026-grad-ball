@@ -8,52 +8,39 @@ title: "OIST Graduation Ball 2026"
 
 ```{=html}
 <div class="countdown-container">
-  <div class="countdown-title">Days Until the Ball</div>
-  <div class="countdown-number" id="countdown">—</div>
+  <div class="countdown-title">🎵 Event Schedule</div>
+  <div class="schedule-content">
+    <div class="schedule-item">
+      <div class="schedule-time">19:30 - 20:00</div>
+      <div class="schedule-event">🚪 Doors Open</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">20:00 - 21:00</div>
+      <div class="schedule-event">🎤 Andrew & Fr.</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">21:00 - 22:00</div>
+      <div class="schedule-event">🎶 MOJO</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">22:00 - 23:00</div>
+      <div class="schedule-event">🎉 OIST Party Music</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">23:00 - 01:00</div>
+      <div class="schedule-event">🎧 DJ Skeezy</div>
+    </div>
+    <div class="schedule-item">
+      <div class="schedule-time">01:00 - onwards</div>
+      <div class="schedule-event">✨ Surface Element & Temma</div>
+    </div>
+  </div>
 </div>
 
 <script>
-  function updateCountdown() {
-    const eventDate = new Date('2026-02-27T00:00:00').getTime();
-    const today = new Date().getTime();
-    const daysRemaining = Math.ceil((eventDate - today) / (1000 * 60 * 60 * 24));
-    const maxDays = 60; // Starting point for blue color
-    
-    document.getElementById('countdown').textContent = Math.max(0, daysRemaining);
-    
-    // Calculate color transition from blue to red based on days remaining
-    let color1, color2;
-    
-    if (daysRemaining > maxDays) {
-      // All blue
-      color1 = '#667eea';
-      color2 = '#764ba2';
-    } else if (daysRemaining < 0) {
-      // All red
-      color1 = '#f093fb';
-      color2 = '#f5576c';
-    } else {
-      // Transition from blue to red
-      const ratio = 1 - (daysRemaining / 19);
-      
-      // Blue: #667eea → Red: #f093fb
-      const r1 = Math.round(102 + (240 - 102) * ratio);
-      const g1 = Math.round(126 + (147 - 126) * ratio);
-      const b1 = Math.round(234 + (251 - 234) * ratio);
-      color1 = `rgb(${r1}, ${g1}, ${b1})`;
-      
-      // Blue: #764ba2 → Red: #f5576c
-      const r2 = Math.round(118 + (245 - 118) * ratio);
-      const g2 = Math.round(75 + (87 - 75) * ratio);
-      const b2 = Math.round(162 + (108 - 162) * ratio);
-      color2 = `rgb(${r2}, ${g2}, ${b2})`;
-    }
-    
-    const countdownElement = document.querySelector('.countdown-container');
-    countdownElement.style.background = `linear-gradient(135deg, ${color1} 0%, ${color2} 100%)`;
-  }
-  
-  updateCountdown();
+  // Apply gradient style to schedule container
+  const scheduleElement = document.querySelector('.countdown-container');
+  scheduleElement.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
 </script>
 
 <div class="progress-container">
